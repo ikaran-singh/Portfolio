@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root{
     --primary-color: #93C5FD;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0px;
 }
 
@@ -25,8 +25,7 @@ hr{
 /** container **/
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
@@ -77,7 +76,7 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 
 .navigation .nav-pills{
@@ -111,6 +110,10 @@ hr{
     color: var(--dark-gray);
 }
 
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
 /* section */
 
 .section {
@@ -118,7 +121,7 @@ hr{
 }
 .section h1{
     text-align: center;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .ow{
@@ -129,7 +132,7 @@ hr{
 
 footer{
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
