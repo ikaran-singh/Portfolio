@@ -11,8 +11,12 @@ body{
     margin: 0px;
 }
 
+.space{
+    padding-bottom: 1rem;
+}
+
 hr{
-    margin: 2rem 0rem;
+    margin: 1.5rem 0rem;
 }
 
 /* margin */
@@ -43,7 +47,7 @@ hr{
 }
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
     color: white
 }
 
@@ -132,7 +136,7 @@ hr{
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -147,12 +151,12 @@ hr{
     font-size: large;
 }
 
-.footer ul{
+.footer .list-non-bullet{
     padding-inline-start: 0px;
 }
 
 
-/* @media only screen and (max-width: 383px ) {
+@media only screen and (max-width: 383px ) {
     .nav-pills {
         padding-left: 20px;
     }
@@ -176,4 +180,4 @@ hr{
     .footer .link {
         padding: 0rem;
     }
-} */
+}
