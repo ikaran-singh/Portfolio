@@ -146,33 +146,9 @@ hr {
     padding-inline-start: 0px;
 }
 
-#sidebar ul li a {
-    color: #900;
-    text-decoration: none;
-    padding: 3px 0; 
-    display: block;
-  }
-  
-  @media all and (min-width: 1001px) {
-    #sidebar ul li a:after {
-      content: " (" attr(data-email) ")";
-      font-size: 11px;
-      font-style: italic;
-      color: #666;
-    }
-  }
-  
-  @media all and (max-width: 1000px) and (min-width: 700px) {
-    #sidebar ul li a:before {
-      content: "Email: ";
-      font-style: italic;
-      color: #666;
-    }
-  }
-  
-  @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #sidebar ul li a {
-      padding-left: 21px;
-      background: url(../images/email.png) left center no-repeat;
-    }
-  }
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
