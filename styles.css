@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+@media only screen and (max-device-width: 480px) {
+
+}
+
 :root{
     --primary-color: #93C5FD;
     --dark-gray: #6B7280;
