@@ -11,10 +11,6 @@ body{
     margin: 0px;
 }
 
-.space {
-    padding-bottom: 1rem;
-}
-
 hr{
     margin: 2rem 0rem;
 }
@@ -29,8 +25,7 @@ hr{
 /** container **/
 
 .container {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
@@ -104,8 +99,7 @@ hr{
 }
 
 .hero .hero-img {
-    width: 350px;
-    max-width: 100%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -123,7 +117,7 @@ hr{
 /* section */
 
 .section {
-    padding: 2rem 2rem;
+    padding: 2rem;
 }
 .section h1{
     text-align: center;
@@ -136,7 +130,7 @@ hr{
 
 /* footer */
 
-footer{
+.footer{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -158,7 +152,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 383px ) {
+/* @media only screen and (max-width: 383px ) {
     .nav-pills {
         padding-left: 20px;
     }
@@ -182,4 +176,4 @@ footer{
     .footer .link {
         padding: 0rem;
     }
-}
+} */
