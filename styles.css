@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-@media only screen and (max-width: 383px ) {
-    .nav-pills {
-        padding-left: 20px;
-    }
-    .footer .link {
-        padding: 0.2rem;
-    }
-}
-@media only screen and (max-width: 361px ) {
-    .nav-pills {
-        padding-left: 12px;
-    }
-    .footer .link {
-        padding: 0.1rem;
-    }
-}
-
-@media only screen and (max-width: 361px ) {
-    .nav-pills {
-        padding-left: 0px;
-    }
-    .footer .link {
-        padding: 0rem;
-    }
-}
-
 :root{
     --primary-color: #93C5FD;
     --dark-gray: #6B7280;
@@ -175,4 +149,31 @@ footer{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+
+@media only screen and (max-width: 383px ) {
+    .nav-pills {
+        padding-left: 20px;
+    }
+    .footer .link {
+        padding: 0.2rem;
+    }
+}
+@media only screen and (max-width: 361px ) {
+    .nav-pills {
+        padding-left: 12px;
+    }
+    .footer .link {
+        padding: 0.1rem;
+    }
+}
+
+@media only screen and (max-width: 361px ) {
+    .nav-pills {
+        padding-left: 0px;
+    }
+    .footer .link {
+        padding: 0rem;
+    }
 }
